@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+background-image: url("logos\bg.jfif");
+background-repeat: no-repeat;
+background-size: cover;}
+
+form {border: 0px; width: 40%; margin-left: 580px;}
+
+input[type=text], input[type=password] {
+  width: 57%;
+  padding: 12px 0px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 57%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.imgcontainer {
+  text-align: left;
+  margin: 24px 0 12px 100px;
+}
+
+img.avatar {
+  width: 30%%;
+  border-radius: 50%;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 280px;
+}
+}
+</style>
+</head>
+<body>
+
+<center><h2 style="font-family: cursive; font-size: 40px;">Student Login Form</h2>
+</center>
+
+<br>
+<br>
+
+<form action="/action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="logos/boy.png" alt="Avatar" class="avatar" height="150px">
+  </div>
+
+  <div class="container">
+    <label for="uname"></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+    <br>
+    <label for="psw"></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <br>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+    <br>
+    <a href="HTML/dee/student.html" class="button">Login</a>
+    <br>
+
+  </div>
+
+
+</form>
+
+</body>
+</html>
